@@ -6,6 +6,8 @@ and if the name is invalid it shows the message as "no data found"
 Example usage :-
 
 java -jar -Dapi=omdb -Dname=Batman DataExtractor-1.0.0-jar-with-dependencies.jar
+
+
 java -jar -Dapi=spotify -Dname= Views DataExtractor-1.0.0-jar-with-dependencies.jar
 
 
