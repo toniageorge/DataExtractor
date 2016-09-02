@@ -1,5 +1,8 @@
 package com.kusbaka.DataExtractor;
-
+/**
+ *This is a constant class to declare all the strings used in the appliaction
+ *
+ */
 public class Constant {
 
 	public static String  search="Search";
@@ -19,5 +22,10 @@ public class Constant {
 	public static String releaseDate="release_date";
 	public static String artistName="name";
 	public static String  typeforAlbum="&type=album";
+	public static String OMDB="omdb";
+	public static String SPOTIFY="spotify";
+	public static String NoDataFound="No data Found for the given name.";
+	public static String errorMessage="Please use api as omdb or spotify";
+	
 	
 }

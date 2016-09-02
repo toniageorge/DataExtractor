@@ -5,9 +5,13 @@ import java.util.List;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+/**
+ *This class process the api call from  omdb.
+ *Fetches title,year ,director of given movie and return the list
+ *
+ */
 
-
-public class ProcessMovieData implements DataProcessor {
+public class OmdbApiData implements DataProcessor {
 
 
 

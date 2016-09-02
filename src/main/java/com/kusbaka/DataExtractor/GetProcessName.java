@@ -1,5 +1,8 @@
 package com.kusbaka.DataExtractor;
-
+/**
+ *This is a factory class which is having a method named getProcess that returns the object based on the name
+ *
+ */
 public class GetProcessName {
 
 	
@@ -9,15 +12,15 @@ public class GetProcessName {
 			return null;
 		}
 		
-		if(name.equalsIgnoreCase("Movie")){
+		if(name.equalsIgnoreCase(Constant.OMDB)){
 			
-			return new ProcessMovieData();
+			return new OmdbApiData();
 		}
-      if(name.equalsIgnoreCase("Album")){
+      if(name.equalsIgnoreCase(Constant.SPOTIFY)){
 			
-			return new ProcessAlbumdata();
+			return new SpotifyApidata();
 		}
-		
+      
 		return null;
 	}
 }

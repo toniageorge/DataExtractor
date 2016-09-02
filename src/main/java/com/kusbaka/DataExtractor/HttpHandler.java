@@ -5,7 +5,10 @@ import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.HttpClientBuilder;
-
+/**
+ *This class connects to api and return the result based on url
+ *
+ */
 public class HttpHandler {
 
 

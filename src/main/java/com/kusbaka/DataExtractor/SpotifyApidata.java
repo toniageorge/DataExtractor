@@ -7,8 +7,12 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-
-public class ProcessAlbumdata implements DataProcessor {
+/**
+ *This class process the api call from  Spotify.
+ *Fetches title,year ,director of given album and return the list
+ *
+ */
+public class SpotifyApidata implements DataProcessor {
 
 
 	public List<Movie> processData( String albumName){
